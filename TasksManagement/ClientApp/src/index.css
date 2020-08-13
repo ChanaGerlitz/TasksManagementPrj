@@ -1,0 +1,89 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* @media (max-width: 767px) {
+    body {
+        padding-top: 50px;
+    }
+   
+} */
+.taskImg{
+    height: 50%;
+    width: 50%;
+    float:right;
+}
+.error-page{background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMC8yOS8xMiKqq3kAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAABHklEQVRIib2Vyw6EIAxFW5idr///Qx9sfG3pLEyJ3tAwi5EmBqRo7vHawiEEERHS6x7MTMxMVv6+z3tPMUYSkfTM/R0fEaG2bbMv+Gc4nZzn+dN4HAcREa3r+hi3bcuu68jLskhVIlW073tWaYlQ9+F9IpqmSfq+fwskhdO/AwmUTJXrOuaRQNeRkOd5lq7rXmS5InmERKoER/QMvUAPlZDHcZRhGN4CSeGY+aHMqgcks5RrHv/eeh455x5KrMq2yHQdibDO6ncG/KZWL7M8xDyS1/MIO0NJqdULLS81X6/X6aR0nqBSJcPeZnlZrzN477NKURn2Nus8sjzmEII0TfMiyxUuxphVWjpJkbx0btUnshRihVv70Bv8ItXq6Asoi/ZiCbU6YgAAAABJRU5ErkJggg==);}
+.error-template {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
+.navbar{
+    width: 100%;
+    height: 10%;
+    color: white;
+    line-height: 10%;
+    background: #2f2c2c;
+    border-radius: 0% !important;
+    text-align: center;
+    padding-top: 2%;
+    text-align: center;
+    padding-top: 1%;
+}
+.list-group-item{
+    border: 1px solid #3c3232 !important;
+}
+.tasksListDiv:before{
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    border: 1px solid #3c3232;
+    top: 0;
+    left: 1%;
+  }
+.showTasksList{
+    height:180px;
+    margin-bottom: 40px
+}
+.form-control ,.btn-default{
+    border-color:  #3c3232 !important;
+}
+.btnLoadAll{
+    border-color:  red !important;
+    margin-left: 43%;
+}
+h1{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 35px;
+}
+.addTask{
+    margin-top: 7%;
+}
+.hr{
+    border-top: 3px solid red;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+h1{
+    margin-bottom: 0px !important;
+}
+.list-group{
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 180px;
+    margin-bottom: 10px;
+    overflow-y: auto;
+    width: 80%;
+    margin: 0 auto;
+    }‏
+
+
+::-webkit-file-upload-button {
+    background: white;
+    border-color:  #3c3232 !important;
+    color: #3c3232 ;
+    /* padding: 0.5em; */
+    cursor: pointer;
+  }
+  
+  
